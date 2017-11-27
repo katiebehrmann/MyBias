@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context="com.example.katiebehrmann.mybias.Explanation">
+
+    <ImageView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/womensmarch" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Image: Women's March DC
+
+Meant to: Protest current administration's anti-choice, anti-LGBTQ, etc. attitdues and policies, bring together community, and empower women.
+
+Criticisms:
+-Largely non-intersectional
+-No policy change or visible outcome
+
+Possible Biases: Ingrained pro-cishet male attitudes in society allow lawmakers to not prioritize or even consider women or LGBTQ issues."
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"
+        android:layout_marginLeft="8dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Image"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center" />
+
+</LinearLayout>
